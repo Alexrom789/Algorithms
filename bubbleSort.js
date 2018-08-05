@@ -3,23 +3,23 @@
 // Space Complexity: O(1)
 
 function swap(array, i, j) {
-  var temp = array[i];
+  let temp = array[i];
   array[i] = array[j];
   array[j] = temp;
 }
 
 function bubbleSort(array){
   let swapped;
-    do {
-        swapped = false;
-        for (let i =0; i < array.length - 1; i++){
-          if (array[i] > array[i + 1]){
-              swap(array, i, i + 1);
-              swapped = true;
-          }
+  do {
+      swapped = false;
+      for (let i =0; i < array.length - 1; i++){
+        if (array[i] > array[i + 1]){
+            swap(array, i, i + 1);
+            swapped = true;
         }
+      }
 
-    } while(swapped);
+  } while(swapped);
   return array;
 }
 
