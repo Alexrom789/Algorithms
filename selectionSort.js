@@ -1,3 +1,7 @@
+// Selection Sort Practice.
+// Time Complexity: Best-O(n^2) Avg-O(n^2) Worse- O(n^2)
+// Space Complexity: O(1)
+
 function swap(array, i, j) {
   let temp = array[i];
   array[i] = array[j];
