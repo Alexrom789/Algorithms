@@ -1,5 +1,5 @@
 // BubbleSort Practice.
-// Time Complexity: Best-O(n) Avg-O(n^2) Worse- O(n^2)
+// Time Complexity: O(n^2)
 // Space Complexity: O(1)
 
 function swap(array, i, j) {

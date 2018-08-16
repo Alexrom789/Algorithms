@@ -1,5 +1,5 @@
 //MergeSort practice
-// Time Complexity: Best-O(n log n) Avg-O(n log n) Worse- O(n log n)
+// Time Complexity: O(n log n)
 // Space Complexity: O(n)
 
 function mergeSort (array) {
